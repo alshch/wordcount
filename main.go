@@ -1,6 +1,3 @@
-// This is a template for the wordcount CLI tool. It should work as follows:
-// $ ./wordcount 'go is awesome'
-// 3
 package main
 
 import (
