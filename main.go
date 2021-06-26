@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
-	input := os.Args[1:]
-	fmt.Print(len(input))
+	fmt.Println(len(strings.Fields(os.Args[1])))
 }
